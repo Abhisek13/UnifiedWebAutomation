@@ -1,0 +1,15 @@
+environment : QA
+application : Google
+
+timeOut: "30"
+qa:
+  baseUrl: "https://google.com"
+  browser: "chrome"
+
+dev:
+  baseUrl: "https://discoveryplus.in"
+  browser: "firefox"
+
+stage:
+  baseUrl: "https://discoveryplus.in"
+  browser: "headless"

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="methods" name="Suite" thread-count="2">
+  <test  name="Test">
+  <listeners>
+  <listener class-name="com.automation.utils.Listeners"/>
+  </listeners>
+    <classes>
+      <class name="com.automation.runner.TestRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
